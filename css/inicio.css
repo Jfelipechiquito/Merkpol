@@ -1,0 +1,67 @@
+
+/*--->Css de pie de pagina<---*/
+
+/*@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Lobster&family=Zen+Antique+Soft&display=swap');
+*{
+	margin: auto;
+	padding: 0px;
+	font-family: 'DM Sans', sans-serif;
+	font-family: 'Lobster', cursive;
+	font-family: 'Zen Antique Soft', serif;
+}
+.pie-pagina{
+	width: 100%;
+	background-color: #fa7726;
+}
+.pie-pagina .grupo-1{
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 50px;
+	padding: 40px opx;
+}
+.pie-pagina .grupo-1 .box figure{
+	background-color: #fa7726;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.pie-pagina .grupo-1 .box h2{
+	color: #fff;
+	margin-bottom: 25px;
+	font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+	color: #efefef;
+	margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+	display: inline-block;
+	text-decoration: none;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	border-radius: 50px;
+	color: #fff;
+	margin-right: 10px;
+	background-color: #0d2033;
+	text-align: center;
+	transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+	color: orange;
+}
+.pie-pagina .grupo-2{
+	background-color: #fa7726;
+	padding: 15px 10px;
+	text-align: center;
+	color: white;
+}
+.pie-pagina .grupo-2 small{
+	font-size: 15px;
+}
