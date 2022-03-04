@@ -22,8 +22,9 @@ nav{
 	color: white;
 	text-decoration: none;
 }
-.menu-horizontal > li: hover{
+.menu-horizontal > li:hover {
 	background-color: rgba(255, 0, 0, .5);
+	border-radius: 18px;
 }
 .menu-vertical{
 	position: absolute;

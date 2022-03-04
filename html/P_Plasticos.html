@@ -10,6 +10,7 @@
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
           <!-- Estilos CSS -->
+          <link rel="stylesheet" href="../css/barra.css">
           <link rel="stylesheet" href="../css/estilos.css">
           <link rel="stylesheet" href="../css/inicio.css">
           <link rel="stylesheet" type="text/css" href="../css/whatsapp.css">
@@ -20,14 +21,27 @@
                <i class="fa fa-whatsapp my-float"></i>
           </a>
           <header>
-             <nav>
-                 <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="P_Mascotas.html">P-Mascotas</a></li>
-                    <li><a href="P_Madera.html">P-Madera</a></li>
-                    <li><a href="P_Plasticos.html">P-Plasticos</a></li>
-                 </ul>
-            </nav>                       
+               <nav>
+                    <ul class="menu-horizontal">
+                         <li><a href="../index.html">Home</a></li>
+                         <li><a href="P_Mascotas.html">P-Mascotas</a></li>
+                         <li><a href="P_Madera.html">P-Madera</a></li>
+                         <li><a href="#">Galeria</a>
+                              <ul class="menu-vertical">
+                                   <li><a href="galery1.html">Arte</a></li>
+                                   <li><a href="galery2.html">Arte</a></li>
+                              </ul>
+                         </li>
+                         <li>
+                              <a href="#">Nosotros</a>
+                              <ul class="menu-vertical">
+                                   <li><a href="#">Quienes somos</a></li>
+                                   <li><a href="#">Contactanos</a></li>
+                              </ul>
+                         </li>
+                         <li><a href="Contactos"></a></li>
+                    </ul>
+               </nav>                      
             <section class="textos-header center-align">
                  <h1>Merkpol SAS</h1>
             </section>
@@ -94,19 +108,18 @@
      <script src="js/main.js"></script>
      <footer class="pie-pagina">
           <div class="grupo-1">
-             <div class="box">
+             <div class="box" >
                   <figure>
                       <a href="#">
-                          <img src="../img/logo.png" alt="Logo del sitio">
+                          <img style="border-radius:20px ;" src="../img/logo.png" alt="Logo del sitio">
                      </a>
                 </figure>            
            </div>
            <div class="box">
-               <h2>SOBRE NOSOTROS</h2>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+            <iframe style="position: relative; top: 20px; border-radius:15px ;" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d994.2024363302185!2d-74.14054231026677!3d4.62800695648923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sco!4v1646260757929!5m2!1ses-419!2sco" width="450" height="200" style="border-radius:10px;" allowfullscreen="" loading="lazy"></iframe>
           </div>
                <div class="box"> 
-                 <h2>SIGUENOS</h2>
+                 <h2 class="textos-header center-align" >Nuestras redes sociales</h2>
                       <div class="red-social">  
                           <a href="https://www.facebook.com" target="_blank" class="fa fa-facebook"></a>
                           <a href="https://www.instagram.com" target="_blank" class="fa fa-instagram"></a>

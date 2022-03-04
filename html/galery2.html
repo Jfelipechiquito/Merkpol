@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+    <script type="text/javascript" src="../js/galery.js"></script> 
+    <script src="https://kit.fontawesome.com/b22027ea4f.js" crossorigin="anonymous"></script>
+          
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="../css/barra.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/inicio.css">
+    <link rel="stylesheet" type="text/css" href="../css/whatsapp.css">
+</head>
+<body>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <a href="https://api.whatsapp.com/send?phone=(+57)3202195197&text=Hola%20Merkpol%20SAS%20te%20da%20la%20Bienvenida." class="float" target="_blank">
+               <i class="fa fa-whatsapp my-float"></i>
+        </a>
+        <section class="textos-header center-align">
+            <h1>Merkpol SAS</h1>
+    </section>
+    <hr class="n1">
+    <header>
+        <nav>
+            <ul class="menu-horizontal">
+                 <li><a href="../index.html">Home</a></li>
+                 <li><a href="P_Mascotas.html">P-Mascotas</a></li>
+                 <li><a href="P_Madera.html">P-Madera</a></li>
+                 <li><a href="#">Galeria</a>
+                      <ul class="menu-vertical">
+                           <li><a href="galery1.html">Arte</a></li>
+                      </ul>
+                 </li>
+                 <li>
+                      <a href="#">Nosotros</a>
+                      <ul class="menu-vertical">
+                           <li><a href="#">Quienes somos</a></li>
+                           <li><a href="#">Contactanos</a></li>
+                      </ul>
+                 </li>
+                 <li><a href="Contactos"></a></li>
+            </ul>
+       </nav>                        
+    </header>
+    &nbsp;
+    <div class="caja"> <!-- Galeria de imagenes de portafolio de bistuí -->
+        <h3 class="textos-header center-align" >Portafilio De Bisturí</h3>
+        <form name="formulary">
+            <input type="button" value="<<<" onclick="AnteriorBs()" class="flechaA">
+            <img src="../img/catalogoOficina/bistury/PA1.jpg" width="600 px" height="440 px" id="imageBs" class="galery">
+            <input type="button" value=">>>" onclick="SiguienteBs()" class="flechaS">
+        </form>
+        &nbsp;
+    </div>
+    &nbsp;
+    <hr class="n1">
+    <div class="caja"> <!-- Galeria de imagenes de portafolio Cacharreria  -->
+        <h3 class="textos-header center-align" >Portafilio Cacharreria</h3>
+        <form name="formulary">
+            <input type="button" value="<<<" onclick="AnteriorCh()" class="flechaA">
+            <img src="../img/catalogoOficina/cacharreria/PA1.jpg" width="600 px" height="440 px" id="imageCh" class="galery">
+            <input type="button" value=">>>" onclick="SiguienteCh()" class="flechaS">
+        </form>
+        &nbsp;
+    </div>
+    &nbsp;
+    <hr class="n1">
+    <div class="caja"> <!-- Galeria de imagenes de portafolio Calculadora  -->
+        <h3 class="textos-header center-align" >Portafilio Calculadora</h3>
+        <form name="formulary">
+            <input type="button" value="<<<" onclick="AnteriorCl()" class="flechaA">
+            <img src="../img/catalogoOficina/calculadora/PA1.jpg" width="600 px" height="440 px" id="imageCl" class="galery">
+            <input type="button" value=">>>" onclick="SiguienteCl()" class="flechaS">
+        </form>
+        &nbsp;
+    </div>
+    &nbsp;
+    <hr class="n1">
+    <div class="caja"> <!-- Galeria de imagenes de portafolio De Cintas  -->
+        <h3 class="textos-header center-align" >Portafilio Cintas</h3>
+        <form name="formulary">
+            <input type="button" value="<<<" onclick="AnteriorCt()" class="flechaA">
+            <img src="../img/catalogoOficina/cintas/PA1.jpg" width="600 px" height="440 px" id="imageCt" class="galery">
+            <input type="button" value=">>>" onclick="SiguienteCt()" class="flechaS">
+        </form>
+        &nbsp;
+    </div>
+    &nbsp;
+    <hr class="n1">
+    <div class="caja"> <!-- Galeria de imagenes de portafolio Cosedoras  -->
+        <h3 class="textos-header center-align" >Portafilio De Cosedoras</h3>
+        <form name="formulary">
+            <input type="button" value="<<<" onclick="AnteriorCds()" class="flechaA">
+            <img src="../img/catalogoOficina/cosedoras/PA1.jpg" width="600 px" height="440 px" id="imageCds" class="galery">
+            <input type="button" value=">>>" onclick="SiguienteCds()" class="flechaS">
+        </form>
+        &nbsp;
+    </div>
+    &nbsp;
+    <hr class="n1">
+    <div class="caja"> <!-- Galeria de imagenes de portafolio Esferos  -->
+        <h3 class="textos-header center-align" >Portafilio De Esferos</h3>
+        <form name="formulary">
+            <input type="button" value="<<<" onclick="AnteriorEs()" class="flechaA">
+            <img src="../img/catalogoOficina/esferos/PA1.jpg" width="600 px" height="440 px" id="imageEs" class="galery">
+            <input type="button" value=">>>" onclick="SiguienteEs()" class="flechaS">
+        </form>
+        &nbsp;
+    </div>
+    &nbsp;
+    <hr class="n1">
+    <div class="caja"> <!-- Galeria de imagenes de portafolio Ganchos  -->
+        <h3 class="textos-header center-align" >Portafilio De Ganchos</h3>
+        <form name="formulary">
+            <input type="button" value="<<<" onclick="AnteriorGc()" class="flechaA">
+            <img src="../img/catalogoOficina/ganchos/PA1.jpg" width="600 px" height="440 px" id="imageGc" class="galery">
+            <input type="button" value=">>>" onclick="SiguienteGc()" class="flechaS">
+        </form>
+        &nbsp;
+    </div>
+    &nbsp;
+    <hr class="n1">
+    <div class="caja"> <!-- Galeria de imagenes de portafolio Notas Adhesivas  -->
+        <h3 class="textos-header center-align" >Portafilio De Notas Adhesivas</h3>
+        <form name="formulary">
+            <input type="button" value="<<<" onclick="AnteriorNa()" class="flechaA">
+            <img src="../img/catalogoOficina/notasAdhesivas/PA1.jpg" width="600 px" height="440 px" id="imageNa" class="galery">
+            <input type="button" value=">>>" onclick="SiguienteNa()" class="flechaS">
+        </form>
+        &nbsp;
+    </div>
+    &nbsp;
+    <hr class="n1">
+    <div class="caja"> <!-- Galeria de imagenes de portafolio para la Oficina  -->
+        <h3 class="textos-header center-align" >Portafilio Para La Oficina</h3>
+        <form name="formulary">
+            <input type="button" value="<<<" onclick="AnteriorOf()" class="flechaA">
+            <img src="../img/catalogoOficina/oficina/PA1.jpg" width="600 px" height="440 px" id="imageOf" class="galery">
+            <input type="button" value=">>>" onclick="SiguienteOf()" class="flechaS">
+        </form>
+        &nbsp;
+    </div>
+    &nbsp;
+    <hr class="n1">
+    <div class="caja"> <!-- Galeria de imagenes de portafolio de perforadoras  -->
+        <h3 class="textos-header center-align" >Portafilio De Perforadoras</h3>
+        <form name="formulary">
+            <input type="button" value="<<<" onclick="AnteriorPr()" class="flechaA">
+            <img src="../img/catalogoOficina/perforadora/PA1.jpg" width="600 px" height="440 px" id="imagePr" class="galery">
+            <input type="button" value=">>>" onclick="SiguientePr()" class="flechaS">
+        </form>
+        &nbsp;
+    </div>    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+     <script src="js/main.js"></script>
+     <footer class="pie-pagina">
+          <div class="grupo-1">
+             <div class="box" >
+                  <figure>
+                      <a href="#">
+                          <img style="border-radius:20px ;" src="../img/logo.png" alt="Logo del sitio">
+                     </a>
+                </figure>            
+           </div>
+           <div class="box">
+            <iframe style="position: relative; top: 20px; border-radius:15px ;" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d994.2024363302185!2d-74.14054231026677!3d4.62800695648923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sco!4v1646260757929!5m2!1ses-419!2sco" width="450" height="200" style="border-radius:10px;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+               <div class="box"> 
+                 <h2 class="textos-header center-align" >Nuestras redes sociales</h2>
+                      <div class="red-social">  
+                          <a href="https://www.facebook.com" target="_blank" class="fa fa-facebook"></a>
+                          <a href="https://www.instagram.com" target="_blank" class="fa fa-instagram"></a>
+                          <a href="https://twitter.com/?lang=es" target="_blank" class="fa fa-twitter"></a>
+                          <a href="https://www.youtube.com" target="_blank" class="fa fa-youtube"></a>
+                     </div>
+               </div>
+           </div>
+          <div class="grupo-2">
+               <small>Copy,2021 <b> JFCC </b> - Todos los Derechos Reservados</small>
+          </div>
+     </footer>
+</body>
+</html>

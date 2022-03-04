@@ -7,11 +7,48 @@ body {
 .n1{
      border: 2px solid #fa7726;
      margin-bottom: 5px;
+     width: 90%;
+}
+.caja{
+     position: relative;
+}
+.galery{
+     display: flex;
+     border: 2px solid #000;
+}
+.flechaS{
+     background-color: #fa7726;
+     position: absolute;
+     height: 60px;
+     width: 60px;
+     border: 2px solid black;
+     border-radius: 50px;
+     right: 260px;
+     top: 250px;
+}
+.flechaS:hover{
+     background-color: #ededed;
+}
+.flechaA{
+     background-color: #fa7726;
+     position: absolute;
+     height: 60px;
+     width: 60px;
+     border: 2px solid black;
+     border-radius: 50px;
+     left: 260px;
+     top: 250px;
+}
+.flechaA:hover{
+     background-color: #ededed;
 }
 h1{
      font-family: sans-serif;
      color: #fa7726;
      margin: auto;
+}
+h3{
+     color: black
 }
 .col {
      margin-bottom: 10px;
